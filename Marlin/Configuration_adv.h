@@ -3232,7 +3232,7 @@
   //#define USER_SCRIPT_RETURN  // Return to status screen after a script
 
   #define USER_DESC_1 "Clean Bed"
-  #define USER_GCODE_1 "G28\nG1 Z80 F5000\nG1 X175 Y340 F5000"
+  #define USER_GCODE_1 "G28\nG1 Z100 F5000\nG1 X175 Y340 F5000"
 
   #define USER_DESC_2 "Warmup for " PREHEAT_1_LABEL
   #define USER_GCODE_2 "M140 S" STRINGIFY(PREHEAT_1_TEMP_BED) "\nM104 S" STRINGIFY(160)
